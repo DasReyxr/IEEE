@@ -96,10 +96,23 @@ export async function loadEvents() {
     .then((response) => response.text())
     .then((text) => {
       const events = parseEvents(text)
-        .map((event) => ({
-          ...event,
-          imageSrc: IMAGE_MAP[event.image] || placeholderDataUrl(event.title, event.accent),
-        }))
+        .map((event) => {
+          // Prefer bundled assets if present in IMAGE_MAP, otherwise fallback to public/events
+          let imageSrc = null;
+          if (event.image && IMAGE_MAP[event.image]) {
+            imageSrc = IMAGE_MAP[event.image];
+          } else if (event.image) {
+            const pathNoLeading = event.image.replace(/^\//, '').replace(/^events\//, '');
+            imageSrc = PUBLIC_URL ? `${PUBLIC_URL}/events/${pathNoLeading}` : `/events/${pathNoLeading}`;
+          } else {
+            imageSrc = placeholderDataUrl(event.title, event.accent);
+          }
+
+          return {
+            ...event,
+            imageSrc: imageSrc || placeholderDataUrl(event.title, event.accent),
+          };
+        })
         .sort((a, b) => new Date(b.dateISO) - new Date(a.dateISO));
 
       cachedEvents = events;

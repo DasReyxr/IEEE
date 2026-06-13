@@ -1,5 +1,56 @@
 <!-- EVENT -->
 ---
+slug: Congreso-CCB
+registerLink: https://forms.gle/3e8F38F2yY5Z7mJW7
+done: False
+title: "Congreso CCB: Actividades"
+date: "26 Mayo 2026"
+dateISO: "2026-05-26"
+category: "Congreso"
+accent: "#0077b6"
+subtitle: "En la charla “Más allá de la IA”, Omar Bazán Ruiz compartió cómo complementar la inteligencia artificial con hábitos y herramientas personales —como el deporte y el arte— para destacar en el entorno universitario."
+excerpt: "Conferencias y talleres ."
+summary: "Conferencia enfocada en usar la IA como herramienta y fortalecer habilidades como pensamiento crítico, disciplina y creatividad para impulsar el crecimiento académico y profesional."
+location: "UAA - Auditorio Salazar Negrete Edif 202"
+time: "11:00"
+image: "CCB_Congreso.png"
+imageAlt: "Conferencia “Más allá de la IA” en IEEE UAA"
+imageLabel: "Logo Oficial de Congreso"
+---
+El congreso del Centro de Ciencias Básicas (CCB) de la UAA es un evento académico que reúne a estudiantes, profesores e investigadores para compartir conocimientos, experiencias y avances en diversas áreas de la ciencia. Durante el congreso se llevan a cabo conferencias magistrales, talleres, presentaciones de investigaciones y actividades de networking que fomentan la colaboración y el intercambio de ideas entre la comunidad académica. 
+![Mapa de la UAA](/events/CCB_Mapa.jpg)
+
+
+En esta edición, la Rama Estudiantil IEEE UAA tuvo el honor de participar con dos conferencias "Emprendimiento Tecnológico, Hardware Open Source e Ingeniería Moderna" dirigida por el Ing. Eduardo Contreras Flores cofundador y CEO de [Electronic Cats](https://electroniccats.com/). Además de la conferencia "IEEE como Motor de Innovación: El Impacto de los Estándares Técnicos en la Industria local y global "  impartida por la Dra. Julieta Domínguez Soberanes Presidenta del IEEE sección Aguascalientes.
+![Omar Bazán Ruiz durante la conferencia “Más allá de la IA”](/events/CCB_Congreso.png)
+*Omar Bazán Ruiz durante la conferencia “Más allá de la IA.*
+
+## Acerca de nuestros ponentes
+### Dra. Julieta Domínguez Soberanes
+Ingeniera en Alimentos y Doctora en Ciencias Biológicas (Summa Cum Laude). Es Investigadora SNI Nivel 1 con amplia experiencia liderando proyectos de innovación nacionales e internacionales. Su labor se centra en la biotecnología y la colaboración en redes de investigación europeas (COST). Ella es Full Professor Universidad Panamericana campus Aguascalientes, Miembro Senior y Chair Sección Aguascalientes IEEE; Vicepresidenta de la Asociación del Maguey y Derivados; Coordinadora de Mujeres en la Ciencia del IFT. 
+![Julieta Domínguez Soberanes](/events/CCB_JulietaDominguez.png)
+*Dra. Julieta Domínguez Soberanes*
+
+### Ing. Eduardo Contreras Flores
+Ingeniero en Electrónica por el Instituto Tecnológico de Aguascalientes (ITA). Es cofundador y CTO (Chief Technologies Officer) de Electronic Cats, empresa líder en hardware para ciberseguridad.
+
+>"Somos una empresa de hardware libre enfocada en Internet de las cosas, llevamos nuestras ideas y las adaptamos a diferentes sectores Educativos, Industriales y de seguridad. Además de crear nuestros productos, practicamos la innovación empresarial mejorando el modelo de negocio que tenemos, para realizar grandes cambios organizacionales, productivos o tecnológicos en proyectos nuevos desarrollando hardware personalizado y adecuado a las necesidades especificas de nuestros clientes, con el fin de ser más eficiente y conseguir hacer realidad lo que nuestros clientes sueñan."
+
+
+![Eduardo Contreras Flores](/events/CCB_EduardoContreras.png)
+*Ing. Eduardo Contreras Flores*
+
+## Lo que se vio
+- IA como herramienta: enfoque y criterios para usarla con intención.
+- Herramientas sugeridas: prompts, notebooks y automatización.
+- Habilidades y hábitos complementarios: pensamiento crítico, disciplina, deporte y arte.
+- Sesión de preguntas y networking con la comunidad IEEE UAA.
+
+
+
+
+<!-- EVENT -->
+---
 slug: conferencia-ia
 registerLink: https://forms.gle/3e8F38F2yY5Z7mJW7
 done: True
