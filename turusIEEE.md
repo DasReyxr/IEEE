@@ -44,7 +44,7 @@ Cita con Tania
 
 ## Club de Erik
 * Promoción en redes: whats e insta: historia destacada y publicación con flyer oficial - Cita con Erick Martes o Jueves de la próxima semana
-
+* Lista de pibes
 
 ## WIE
 ### 23 de Junio
