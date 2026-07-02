@@ -1,7 +1,5 @@
 # Turus
 # Viajes
-## Sumer school 6 - 10 julio
-Registro para summer school https://events.vtools.ieee.org/
 ## Viaje de ingenieros 
 29 - 31 octubre
 
@@ -11,13 +9,14 @@ https://www.uaa.mx/portal/wp-content/uploads/2026/03/Catalogo-actualizado-de-ses
 Hasta el sig semestre
 
 ## Verificacion de componentes Erika
-* Importancia de marcas chinas
-* q me responda
+* Darle seguimiento
 
 ## Gestion de tiempo 2do
 
 ## Concurso Inventos
-Sacar la convocatori. Concursos de inventos. Seleccionar jurado: Jose Luis  puede sugerir el jurado. Criterios para un buen o mal invento: Funcionabilidad,  Costo eficacia, que tan autónomo es. Seguir la premisa del Hackaton: Ir a empresa buscar paa roblemáticas y girar el evento en torno a ello
+Sacar la convocatoria. 
+Concursos de inventos. Seleccionar jurado: Jose Luis  puede sugerir el jurado. 
+Criterios para un buen o mal invento: Funcionabilidad,  Costo eficacia, que tan autónomo es. Seguir la premisa del Hackaton: Ir a empresa buscar paa roblemáticas y girar el evento en torno a ello
 ## Cronograma IEEE 6 meses
 
 
@@ -51,9 +50,54 @@ Cita con Tania
 Proximo martes confirmacion
 
 ## IEEE Section
+# Tania
+* Vtools
+* Manejarlo a nivel seccion
+* Manejarlo con gobierno
+
 ### Chill & Chamba
 
 ###
 
 
 1) Noticias de tecnología: una vez cada dos semanas
+
+
+
+Tenemos pensado realizar eventos dedicados a la resolución de problema con el fin de que los estudiantes puedan desarrollar soluciones a problemáticas reales, y que las empresas puedan tener un acercamiento con los estudiantes y sus ideas. Para llegar a esto primero sera necesario realizar una pasarela de inventos en donde los estudiantes puedan exponer sus ideas y prototipos, y posteriormente se realizará un hackathon en donde los estudiantes podrán desarrollar soluciones a problemáticas reales planteadas por las empresas.
+
+* Fase 1: Pasarela/Gala de inventos: Realizarlos a nivel UAA o a nivel estatal, en donde se expongan los inventos. Posterior a esto se sensara las personas que tengan interés en el desarrollo de proyectos para después seguir con la fase 2
+
+* Fase 2: Hackathon: Contactar con empresas para que nos den problemáticas y que los equipos de estudiantes puedan desarrollar soluciones a esas problemáticas. La empresa que tenga la problemática dará un premio monetario al equipo ganador. Se debe cuidar que la empresa no tome la idea y la ejecute por su parte y que el presupuesto que ofrezca la empresa sea justo.
+
+Posibles convenios
+* The Inventor House
+* Gobierno (Secretaria de desarrollo económico)
+* Privado (Grupo de Industriales de Aguascalientes, CIMAT(SPI) )
+
+
+Contacto
+* Grupo de Industriales de Aguascalientes https://www.facebook.com/share/1EnQhtcnbb/
+* CIMAT(SPI) _https://spi.eventos.cimat.mx/
+* The inventr house https://www.facebook.com/TheInventorsHouse
+
+## Concurso de Inventos
+# Jose Luis Idea
+* The inventor House 
+* Hacer una pasarela de inventos en la UAA
+* Centro
+
+# Fabi
+* Manejarlo de forma directa con la empresa, SPI  Seminario problemas industriales
+* Proyectos tenerlos al 100
+* Conocer necesidades de la industria
+* Delimitar Enfoque (Parte medica)
+
+* Publico: Secretaria de desarrollo económico
+* SPI https://spi.eventos.cimat.mx/
+* Privado: Grupo de Industriales de Aguascalientes
+* Vinculacion universitaria
+* Pasarela Eventos
+    * Justificadas faltas
+    * Que den puntos extra
+    * Sponsor para la feria
