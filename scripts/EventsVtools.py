@@ -1,27 +1,44 @@
 events = [
+
     {
-        "title": "WIE",
+        "title": "Día de la Mujer en la Ingeniería en la UAA",
         "category": "Technical",
         # "subcategory": "Continuing Education",
-        "start_time": "09 Jul 2026 02:03 PM",
-        "end_time":   "24 Jul 2026 02:05 PM",
+        "start_time": "23 Jun 2026 11:00 AM",
+        "end_time":   "23 Jul 2026 02:05 PM",
         "timezone": "America/Mexico_City",
-        "description": "<p>Descripción del evento aquí.</p>",
-        "header": "<p>Encabezado</p>",
+                "description": 
+        "<p>Celebremos este día de la mujer en la ingeniería,La Rama Estudiantil IEEE UAA vivió una experiencia única con la participación de la Dra. María de Lourdes Margain Fuentes, Rectora de la Universidad Internacional de Innovación (UNII), especialista en innovación educativa, transformación digital e Inteligencia Artificial.</p>",
+        "header": "<p>Conferencia-Taller Especial</p>",
         "footer": "<p>Pie de página</p>",
         "agenda": "<p>Agenda</p>",
-        "keywords": "#IEEE, #evento, #tecnologia",
+        "keywords": "#IEEE #evento #tecnologia #WIE #mujer #ingenieria",
         "survey_url": "https://ejemplo.com/encuesta",
 
         "location": {
             "type": "physical",  # physical | virtual | hybrid
-            "address1": "Av. Universidad 940",
+            "address1": "Universidad Autónoma de Aguascalientes",
+            "address2": "Av. Universidad 940",
             "city": "Aguascalientes",
-            "postal_code": "20131",
+            "postal_code": "20100",
             "building": "Centro de Ciencias Básicas",
             "country": "Mexico",
-            # "state": "Aguascalientes",
+            "state": "Aguascalientes",
         },
+
+        "speakers": [
+            {
+                "topic": "Innovación Educativa y Transformación Digital",
+                "first_name": "María de Lourdes",
+                "last_name": "Margain Fuentes",
+                "display_name": "Dra. María de Lourdes Margain Fuentes",
+                "prefix": "Dra.",
+                "organization": "Universidad Internacional de Innovación (UNII)",
+                "email": "mmargain@ejemplo.com",
+                "topic_description_html": "<p>Charla sobre innovación educativa, transformación digital e Inteligencia Artificial.</p>",
+                "biography_html": "<p>Rectora de la Universidad Internacional de Innovación (UNII), especialista en innovación educativa, transformación digital e Inteligencia Artificial.</p>",
+            },
+        ],
     },
     {
         "title": "Otro evento",
@@ -33,7 +50,7 @@ events = [
         "header": "<p>Encabezado</p>",
         "footer": "<p>Pie de página</p>",
         "agenda": "<p>Agenda</p>",
-        "keywords": "IEEE workshop",
+        "keywords": "#IEEE #workshop",
         "survey_url": "https://ejemplo.com/survey",
 
         "location": {
@@ -44,5 +61,15 @@ events = [
             "building": "Centro de Ciencias Básicas",
             "country": "Mexico",
         },
+
+        "speakers": [
+            {
+                "first_name": "Ana",
+                "last_name": "García",
+                "display_name": "Ana García",
+                "organization": "Universidad Autónoma de Aguascalientes",
+                "email": "ana.garcia@ejemplo.com",
+            },
+        ],
     },
 ]

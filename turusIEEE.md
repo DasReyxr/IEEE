@@ -1,4 +1,12 @@
 # Turus
+
+# IEEE Stuff
+* Investigar como pedir patrocinios
+* Administrar dinero IEEE
+
+
+
+
 # Viajes
 ## Viaje de ingenieros 
 29 - 31 octubre
@@ -9,15 +17,17 @@ https://www.uaa.mx/portal/wp-content/uploads/2026/03/Catalogo-actualizado-de-ses
 Hasta el sig semestre
 
 ## Verificacion de componentes Erika
-* Darle seguimiento
+* Preguntar a Erika
 
 ## Gestion de tiempo 2do
 
 ## Concurso Inventos
-Sacar la convocatoria. 
-Concursos de inventos. Seleccionar jurado: Jose Luis  puede sugerir el jurado. 
-Criterios para un buen o mal invento: Funcionabilidad,  Costo eficacia, que tan autónomo es. Seguir la premisa del Hackaton: Ir a empresa buscar paa roblemáticas y girar el evento en torno a ello
-## Cronograma IEEE 6 meses
+* Hacer el documento para delimitar
+* Rellenar plantilla para el evento
+* Flyer
+* Mensaje para invitacion
+* Mobiliario
+
 
 
 ## Chill & Chamba
@@ -38,26 +48,44 @@ Cita con Tania
 ## Club de Programacion ICPC Ariel Gallos
 * Ver convenio con UAA
 * UAA financia membresías a gallos ICPC con la promesa de que la IEEE financiaría la mayoría de los concursos. Cita Julieta y Jefa Dep
-*  
+* Hackathon
+* Xtreme preguntar a julieta como se maneja eso
+
+
 ## Colmena
 
 ## Club de Erik
-* Promoción en redes: whats e insta: historia destacada y publicación con flyer oficial - Cita con Erick Martes o Jueves de la próxima semana
-* Lista de pibes
+* Promoción en redes: whats e insta: historia destacada y publicación con flyer oficial 
+* Preguntarle a kevin q q procede
+
 
 ## WIE
-### 23 de Junio
-Proximo martes confirmacion
+* Preguntarle a sara q q procede
 
 ## IEEE Section
 # Tania
-* Vtools
+* Vtools Wiki
 * Manejarlo a nivel seccion
 * Manejarlo con gobierno
+* posada navideña
 
 ### Chill & Chamba
 
-###
+
+### Fase 1: Gala de Inventos (Nombre pendiente)
+
+Invitados:
+Lugar: Posible museo de la muerte
+
+Delimitar por problematica
+Como podemos hacerle para evitar robo d ideas (Propiedad intelectual)
+
+#### UAA
+Ganador por semestre Hablarlo con GINA (Puntos extra)
+Vinculacion convenio con lo del IMPI
+Comité de Propiedad Intelectual
+Manejar invitados
+
 
 
 1) Noticias de tecnología: una vez cada dos semanas
@@ -101,3 +129,7 @@ Contacto
     * Justificadas faltas
     * Que den puntos extra
     * Sponsor para la feria
+
+
+
+
