@@ -1,10 +1,16 @@
 # Turus
 
+* Conseguir gente
+* Contacto WRO
+* Contacto Mercadotecnia 
+* Definir fecha, temática. Contactar a XtremeMexico, sino, se contacta a jULIETA, o a Josue (apoyo)
+* Bajar Recurso Tutorial 
+* Conseguir espacio y mobiliario
+Que nos hace falta como lo podemos hacer
+
 # IEEE Stuff
 * Investigar como pedir patrocinios
 * Administrar dinero IEEE
-
-
 
 
 # Viajes
@@ -46,6 +52,7 @@ Cita con Tania
 # Sociedades
 
 ## Club de Programacion ICPC Ariel Gallos
+
 * Ver convenio con UAA
 * UAA financia membresías a gallos ICPC con la promesa de que la IEEE financiaría la mayoría de los concursos. Cita Julieta y Jefa Dep
 * Hackathon
@@ -91,6 +98,7 @@ Manejar invitados
 1) Noticias de tecnología: una vez cada dos semanas
 
 
+Tenemos pensado realizar una gala de inventos (Engineering Showcase), en donde los estudiantes puedan exponer sus proyectos de fin de semestre con el objetivo de resolver una problemática real. El incentivo que podria ser seria puntos extra en la materia y que solo se den dos o tres puntos por semestre, para que se motiven a participar. Tenemos pensado ver si podriamos inclusive hasta manejarlo con vinculacion de la UAA para ver posibilidad de registrar bajo indautor.  Respecto del lugar pensabamos hacerlo en el patio del museo de la muerte, que sea un lugar abierto y que se pueda manejar con la UAA, para que los estudiantes puedan exponer sus proyectos y prototipos.
 
 Tenemos pensado realizar eventos dedicados a la resolución de problema con el fin de que los estudiantes puedan desarrollar soluciones a problemáticas reales, y que las empresas puedan tener un acercamiento con los estudiantes y sus ideas. Para llegar a esto primero sera necesario realizar una pasarela de inventos en donde los estudiantes puedan exponer sus ideas y prototipos, y posteriormente se realizará un hackathon en donde los estudiantes podrán desarrollar soluciones a problemáticas reales planteadas por las empresas.
 
