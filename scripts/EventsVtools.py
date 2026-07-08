@@ -1,5 +1,59 @@
 events = [
+      {
+        "title": "Social Meeting with Young Profesionals",
+        "category": "Technical",
+        # "subcategory": "Continuing Education", #YP90353
+        "start_time": "7 Jul 2026 07:00 PM",
+        "end_time":   "7 Jul 2026 09:00 PM",
+        "timezone": "America/Mexico_City",
+                "description": 
+        "<p>We discuss about upcoming events and how are we going to divide the task, focusing on two main projects Chill & Chamba and IEEE webPage.</p>",
+        "header": "<p>Meeting focused on orientation about weigds and Task distribution</p>",
+        "footer": "<p></p>",
+        "agenda": "<p></p>",
+        "keywords": "#IEEE #events #STEM #YP ",
+        "survey_url": "",
 
+        "location": {
+            "type": "virtual",  # physical | virtual | hybrid Av Independencia 1402, San José del Arenal, 20130 Aguascalientes, Ags.
+            "address1": "",
+            "address2": "",
+            "city": "",
+            "postal_code": "",
+            "building": "",
+            "country": "",
+            "state": "",
+            "virtual_info_html" : "", # only for virtual
+        },
+
+    },
+   {
+        "title": "Social Meeting with Gallos ICPC",
+        "category": "Technical",
+        # "subcategory": "Continuing Education",
+        "start_time": "7 Jul 2026 11:00 AM",
+        "end_time":   "7 Jul 2026 01:05 PM",
+        "timezone": "America/Mexico_City",
+                "description": 
+        "<p>We discuss about upcoming events and how are we going to divide the task, focusing on two main projects IEEE-Extreme and Engineering ShowCase.</p>",
+        "header": "<p></p>",
+        "footer": "<p></p>",
+        "agenda": "<p></p>",
+        "keywords": "#IEEE #events #STEM #innovacion",
+        "survey_url": "",
+
+        "location": {
+            "type": "physical",  # physical | virtual | hybrid Av Independencia 1402, San José del Arenal, 20130 Aguascalientes, Ags.
+            "address1": "Av Independencia 1402",
+            "address2": "San José del Arenal",
+            "city": "Aguascalientes",
+            "postal_code": "20130",
+            "building": "Starbucks Terracota",
+            "country": "Mexico",
+            "state": "Aguascalientes",
+        },
+
+    },
     {
         "title": "Día de la Mujer en la Ingeniería en la UAA",
         "category": "Technical",
