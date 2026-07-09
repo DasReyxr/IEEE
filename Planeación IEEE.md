@@ -31,27 +31,54 @@
 - [ ] Subir primera versión y compartir link
 
 # Concursos en Arena Gallos
-**Nombre corto del proyecto/idea:** Concursos en Arena Gallos
+**Nombre corto del proyecto/idea:** IEEE Extreme 
 
-**Tipo:** Concurso / Comunidad
+**Tipo:** Concurso
 
-**Problema u oportunidad a atacar:** Actividades atractivas para jalar participación y crear comunidad presencial.
+**Problema u oportunidad a atacar:** Falta de visibilidad del IEEE Student Branch UAA.
 
-**Descripción en 1–2 frases (elevator pitch):** Organizar un concurso presencial en Arena Gallos con dinámica sencilla y premios.
+**Descripción en 1–2 frases (elevator pitch):** Participar en un concurso presencial, realizado de forma virtual y organizado por la IEEE a nivel Internacional de programación competitiva. 
 
 **Objetivo (qué se quiere lograr):** Aumentar participación, visibilidad y sentido de comunidad.
 
-**Lugar (si aplica):** Arena Gallos
+**Lugar (si aplica):**  Idealmente Arena Gallos
 
 ### Responsable y equipo
-- **Encargado(a) del proyecto:** Ariel
+- **Encargado(a) del proyecto:** Ariel Parra y Das
 - **Equipo/apoyos:** 
-- **Contactos clave / aliados:** Contactar con Arena gallos
+    * Ariel Parra ICPC Gallos
+- **Contactos clave / aliados:** 
+    * Contactar con Arena gallos
+    * Contactar con IEEE Extreme
 
 ### Recursos
 - **Recursos necesarios:** 
+Sera necesario saber primero
+* Numero de gente interesada (#GENTE)
+* Si van a aguantar las 24 horas (TIEMPO)
+
+Para despues
+* Numero de computadoras necesarias #GENTE/3 (7 si fueran 20 total)
+* Comida y bebidas para el evento
+    * Considerar que comida estaria bien
+* Proctores (#TIEMPO/4) para que cada proctor cubra 4 horas de las 24 horas del evento
+
+- **Mobiliario**
+* Materiales para el concurso (Logo IEEE, Souvenirs) 
+    * Solicitarlo con tiempo a IEEE
+* Lugar para #GENTE personas 
+
 - **Presupuesto estimado:** 
+* Pendiente Kevin
 - **Necesita aprobación de:** 
+* Arena Gallos para el lugar 
+* UAA para el horario
+* Jefa de Departamento para comida
+
+- **Consideraciones importantes:**
+* El numero de participantes por equipo es de 3 personas, hasta un maximo de 2 miembros de posgrado por equipo. Cada participante debe ser miembro del IEEE Student o Graduate Student.
+
+* El evento son 24 horas continuas, sin embargo los equipos pueden decidir hasta que hora quieren participar.
 
 
 # Programación competitiva con electrónica
