@@ -18,7 +18,7 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
-from EventsVtools import events
+from ghfiles.IEEEAGS.IEEE.scripts.Event_VTools.EventsVtools import events
 
 event = events[0]
 

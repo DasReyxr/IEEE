@@ -1,4 +1,55 @@
 events = [
+         {
+        "title": "Meeting with the members of the IEEE Student Branch UAA",
+        "category": "Technical",
+        # "subcategory": "Continuing Education",
+        "start_time": "29 Jul 2026 05:00 PM",
+        "end_time":   "29 Jul 2026 07:30 PM",
+        "timezone": "America/Mexico_City",
+                "description": 
+        "<p>On this meeting we discuss about the Engineering Showcase Event and Details. </p>",
+        "header": "<p>Administration Meeting</p>",
+        "footer": "<p></p>",
+        "agenda": "<p></p>",
+        "keywords": "#IEEE #UAA  #UAA #2026 #Administration #meeting #STEM",
+        "survey_url": "",
+
+        "location": {
+            "type": "physical",  # physical | virtual | hybrid
+            "address1": "Universidad Autónoma de Aguascalientes",
+            "address2": "Av. Universidad 940",
+            "city": "Aguascalientes",
+            "postal_code": "20100",
+            "building": "Centro de Ciencias Básicas",
+            "country": "Mexico",
+            "state": "Aguascalientes",
+        }},
+     {
+        "title": "UAA Welcomes the New Generation of Engineers",
+        "category": "Technical",
+        # "subcategory": "Continuing Education",
+        "start_time": "23 Jul 2026 09:00 AM",
+        "end_time":   "23 Jul 2026 11:00 AM",
+        "timezone": "America/Mexico_City",
+                "description": 
+        "<p>We are excited to get together and welcome the new generation of electronic engineers. </p>",
+        "header": "<p>New Generation of Electronic Engineers 2026</p>",
+        "footer": "<p></p>",
+        "agenda": "<p>Agenda 9:00 AM Meeting Event 10:00 AM Information Session about the actual student branch</p>",
+        "keywords": "#IEEE #evento #tecnologia #UAA #2026 #WIE #mujer #ingenieria",
+        "survey_url": "",
+
+        "location": {
+            "type": "physical",  # physical | virtual | hybrid
+            "address1": "Universidad Autónoma de Aguascalientes",
+            "address2": "Av. Universidad 940",
+            "city": "Aguascalientes",
+            "postal_code": "20100",
+            "building": "Centro de Ciencias Básicas",
+            "country": "Mexico",
+            "state": "Aguascalientes",
+        }},
+
       {
         "title": "Social Meeting with Young Profesionals",
         "category": "Technical",

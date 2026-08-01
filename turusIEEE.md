@@ -1,12 +1,13 @@
 # Turus
+* Mensaje Guero
+* Arduino Day
 
 * Conseguir gente
 * Contacto WRO
 * Contacto Mercadotecnia 
-* Definir fecha, temática. Contactar a XtremeMexico, sino, se contacta a jULIETA, o a Josue (apoyo)
-* Bajar Recurso Tutorial 
+* Definir fecha, temática. Contactar a XtremeMexico, sino, se contacta a jULIETA, 
 * Conseguir espacio y mobiliario
-Que nos hace falta como lo podemos hacer
+* Que nos hace falta como lo podemos hacer
 
 # IEEE Stuff
 * Investigar como pedir patrocinios

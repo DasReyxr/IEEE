@@ -27,9 +27,15 @@ Ademas
 * **Nombre del proyecto:** IEEEXtreme - Sede UAA 2026
 * **Tipo:** Concurso Internacional de Programación Competitiva (Virtual, con sede presencial).
 * **Fecha:** 31 de octubre de 2026.
+* **Horario:** 
+  * **Inicio:** Viernes a las 7:00 p. m. (19:00 h)
+  * **Fin:** Sábado a las 7:00 p. m. (19:00 h)
+
 * **Duración:** 24 horas continuas (escala global, participación flexible a nivel local).
 * **Objetivo:** Fomentar la programación competitiva, integrar a la comunidad de la UAA con alumnos de otras universidades y aumentar la visibilidad y el sentido de comunidad de la Rama Estudiantil IEEE UAA.
 * **Público objetivo:** Alumnos de programación de la UAA y estudiantes invitados de otras universidades (en equipos de 3 personas).
+
+* Buscar patrocinadores INCYTEA
 
 ---
 
@@ -57,7 +63,11 @@ Ademas
 * Papelería básica: Libretas, lápices y gomas.
 
 ### 3. Logística de Bienestar y Consumibles
-* **Alimentos:** Comidas fuertes (cena, desayuno, comida) y suministro constante de bebidas (café, agua, energizantes) y snacks.
+* **Alimentos:** 
+  Comidas fuertes (cena, desayuno, comida) y suministro constante de bebidas (café, agua, energizantes) y snacks.
+  Convenio con exquisitas, la gula. Comprar bagguetes
+
+
 * **Zona de descanso:** Espacio asignado con colchonetas o sofás para siestas cortas.
 * **Higiene:** Garantizar insumos en los baños (papel, jabón) durante la madrugada.
 * **Materiales de identidad:** Kit de materiales oficiales, logos e impresiones de IEEE y souvenirs (Solicitar con tiempo a IEEE).
