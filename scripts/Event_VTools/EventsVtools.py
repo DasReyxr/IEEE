@@ -1,4 +1,33 @@
 events = [
+     {
+            "title": "Social Meeting with Young Profesionals",
+            "category": "Technical",
+            # "subcategory": "Continuing Education", #YP90353
+            "start_time": "7 Jul 2026 07:00 PM",
+            "end_time":   "7 Jul 2026 09:00 PM",
+            "timezone": "America/Mexico_City",
+                    "description": 
+            "<p>We discuss about upcoming events and how are we going to divide the task, focusing on two main projects Chill & Chamba and IEEE webPage.</p>",
+            "header": "<p>Meeting focused on orientation about weigds and Task distribution</p>",
+            "footer": "<p></p>",
+            "agenda": "<p></p>",
+            "keywords": "#IEEE #events #STEM #YP ",
+            "survey_url": "",
+    
+            "location": {
+                "type": "virtual",  # physical | virtual | hybrid Av Independencia 1402, San José del Arenal, 20130 Aguascalientes, Ags.
+                "address1": "",
+                "address2": "",
+                "city": "",
+                "postal_code": "",
+                "building": "",
+                "country": "",
+                "state": "",
+                "virtual_info_html" : "", # only for virtual
+            },
+    
+        },
+        
       {
         "title": "Social Meeting with Young Profesionals",
         "category": "Technical",

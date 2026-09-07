@@ -13,6 +13,12 @@ Puntos clave de diseño:
   de vTools es frágil: un formato incorrecto lo deja en blanco o con la
   fecha equivocada sin lanzar ningún error visible. Por eso se valida el
   formato ANTES de escribir nada en la página.
+
+
+  google-chrome-stable --user-data-dir=/tmp/chrome-playwright --remote-debugging-port=9222
+
+  https://events.vtools.ieee.org/tego_/event/create
+
 """
 
 from __future__ import annotations
@@ -266,6 +272,7 @@ def fill_host_organizational_unit(page: Page, org_name: str, spoid: str | None =
         page.fill(f"#_event_host_search_{index}", org_name)
         page.wait_for_selector(f"text={org_name}", timeout=10000)
         page.click(f"text={org_name}")
+    
 
 
 def fill_contact_email(page: Page, email: str, index: int = 0):
@@ -274,6 +281,46 @@ def fill_contact_email(page: Page, email: str, index: int = 0):
 
 def fill_extra_contact_info(page: Page, html_content: str):
     fill_tinymce(page, "meeting_contact_display", html_content)
+
+
+def enable_add_cohost(page: Page):
+    button = page.locator(
+        'a._add_additional_host_button[data-additional-host-url="/tego_/event/additional_host"]'
+    )
+    button.wait_for(state="visible", timeout=10000)
+    button.click()
+    page.wait_for_timeout(1600)
+
+
+def add_cohost(page: Page):
+    page.get_by_role("link", name=re.compile(r"Add\s+Co-Host", re.IGNORECASE)).click()
+    page.wait_for_timeout(800)
+
+
+def fill_cohost(page: Page, index: int = 1, org_name: str | None = None, spoid: str | None = None, email: str | None = None):
+    fill_host_organizational_unit(page, org_name=org_name or "", spoid=spoid, index=index)
+    if email:
+        fill_contact_email(page, email, index=index)
+
+
+def fill_cohosts(page: Page, cohosts: list, log=_noop):
+    if not cohosts:
+        return
+
+    log("Habilitando cohosts...")
+    enable_add_cohost(page)
+
+    for i, cohost_data in enumerate(cohosts, start=1):
+        log(f"Llenando cohost #{i}: {cohost_data.get('organization', '(sin organización)')}")
+        if i > 1:
+            add_cohost(page)
+        fill_cohost(
+            page,
+            index=i,
+            org_name=cohost_data.get("organization"),
+            spoid=cohost_data.get("spoid"),
+            email=cohost_data.get("email"),
+        )
 
 
 # ---------------------------------------------------------------------------
@@ -340,6 +387,7 @@ def fill_keywords(page: Page, keywords: str):
 
 def fill_survey_url(page: Page, url: str):
     page.fill("#meeting_survey_url", url)
+
 
 
 # ---------------------------------------------------------------------------
@@ -421,6 +469,20 @@ def fill_location(page: Page, location: dict, log=_noop):
     if loc_type in ("virtual", "hybrid") and location.get("virtual_info_html"):
         fill_virtual_info(page, location["virtual_info_html"])
 
+# ---------------------------------------------------------------------------
+# Seccion : Registration
+# ---------------------------------------------------------------------------
+
+def open_registration_section(page: Page):
+    page.get_by_text("Registration & Payment", exact=True).click()
+    page.wait_for_timeout(500)
+
+
+def select_registration_type_none(page: Page):
+    radio = page.locator("#_registration_type_None")
+    if not radio.is_checked():
+        radio.check()
+        page.wait_for_timeout(500)
 
 # ---------------------------------------------------------------------------
 # Sección: Speakers
@@ -536,6 +598,20 @@ def fill_speakers(page: Page, speakers: list, log=_noop):
 
 
 # ---------------------------------------------------------------------------
+# Seccion : Reporting
+# ---------------------------------------------------------------------------
+
+def open_reporting_section(page: Page):
+    page.get_by_text("Report and Attendance", exact=True).click()
+    page.wait_for_timeout(500)
+
+def fill_IEEE_Attendance(page: Page, html_content: str):
+    fill_tinymce(page, "#meeting_ieee_attending", html_content)
+
+def fill_Guest_Attendance(page: Page, html_content: str):
+    fill_tinymce(page, "#meeting_guests_attending", html_content)
+
+# ---------------------------------------------------------------------------
 # Botones / navegación
 # ---------------------------------------------------------------------------
 def open_details_section(page: Page):
@@ -575,6 +651,9 @@ def fill_event_form(
     fill_host_organizational_unit(page, org_name=host_org_name, spoid=host_spoid)
     fill_contact_email(page, host_contact_email)
 
+    if event.get("cohosts"):
+        fill_cohosts(page, event["cohosts"], log=log)
+
     open_details_section(page)
 
     log(f"Llenando detalles del evento: {event['title']}")
@@ -595,10 +674,22 @@ def fill_event_form(
 
     open_location_section(page)
     fill_location(page, event["location"], log=log)
+    open_registration_section(page)
+    select_registration_type_none(page)
+
 
     if event.get("speakers"):
         open_speakers_section(page)
         fill_speakers(page, event["speakers"], log=log)
+
+    # Only works if its published, so we will not use it for now
+    # open_reporting_section(page)
+
+    # if event.get("ieee_attendance"):
+    #     page.fill("#meeting_ieee_attending", event["ieee_attendance"])
+
+    # if event.get("guests_attendance"):
+    #     page.fill("#meeting_guests_attending", event["guests_attendance"])
 
     log("Formulario llenado. Revísalo en el navegador antes de guardar.")
 
@@ -658,7 +749,10 @@ class AutomationController:
 
         page = None
         for candidate in context.pages:
-            if "event/create" in candidate.url:
+            if "event/create"  in candidate.url:
+                page = candidate
+                break
+            if "event/edit" in candidate.url:
                 page = candidate
                 break
         if page is None:

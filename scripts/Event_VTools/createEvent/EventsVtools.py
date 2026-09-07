@@ -1,5 +1,78 @@
 events = [
          {
+            "title": "Robotics mentorship for future innovators",
+            "category": "Professional",
+            "subcategory": "Professional (Other)", #YP90353
+            "start_time": "7 Jul 2026 09:00 AM",
+            "end_time":   "7 Jul 2026 01:00 PM",
+            "timezone": "America/Mexico_City",
+            "description":  """
+            <p>
+                The IEEE Student Branches at the Instituto Tecnológico de Aguascalientes (ITA)
+                and the Universidad Autónoma de Aguascalientes (UAA), together with the IEEE
+                Aguascalientes Section, in collaboration with the Instituto de Ciencia y
+                Tecnología del Estado de Aguascalientes (INCyTEA) and with support from the
+                IEEE Electron Devices Society (EDS), organize a series of educational sessions
+                aimed at introducing children to programming, electronics, and microcontrollers.
+            </p>
+
+            <p>
+                Held on Saturdays, these hands-on sessions provide participants with
+                opportunities to develop basic programming and electronics skills through the
+                use of the <strong>micro:bit</strong> educational platform and construction kits.
+                Through guided activities and interactive projects, participants explore the
+                fundamentals of microcontrollers and their applications in simple technological
+                systems.
+            </p>
+
+            <p>
+                The program promotes early interest in science, technology, engineering, and
+                mathematics (<strong>STEM</strong>) while encouraging creativity, logical
+                thinking, teamwork, and problem-solving skills among young learners.
+            </p>
+
+            <h2>Learning Objectives</h2>
+
+            <ul>
+                <li>Introduce fundamental programming concepts using the micro:bit platform.</li>
+                <li>Develop logical thinking and problem-solving skills through hands-on activities.</li>
+                <li>Explore basic electronics and microcontroller applications.</li>
+                <li>Encourage early interest in STEM through interactive technology projects.</li>
+                <li>
+                Promote collaboration and knowledge sharing through educational activities
+                led by IEEE Student Branches.
+                </li>
+            </ul>
+            """,
+            "header": "<p><strong>Robotics mentorship for future innovators<strong></p>",
+            "footer": "<p></p>",
+            "agenda": "<p></p>",
+            "keywords": " #sensor #sensors #tools #stem #kids #robots ",
+            "survey_url": "",
+            "cohosts":[ 
+                {
+                "organization" : "Instituto Tec De Aguascalientes",
+                "spoid" : "STB36051",
+                "email" : "ieee.sec.ags@gmail.com"
+                }
+            ],
+            "location": {
+                "type": "physical",  # physical | virtual | hybrid Av Independencia 1402, San José del Arenal, 20130 Aguascalientes, Ags.
+                "address1": "Av Moscatel",
+                "address2": "Bosques del Prado Oriente",
+                "city": "Aguascalientes",
+                "postal_code": "20159",
+                "building": "109",
+                "country": "Mexico",
+                "state": "Aguascalientes",
+                "virtual_info_html" : "", # only for virtual
+            },
+        "ieee_attendance": "8",
+        "guests_attendance": "20",
+    
+        },
+   
+         {
         "title": "Meeting with the members of the IEEE Student Branch UAA",
         "category": "Technical",
         # "subcategory": "Continuing Education",
@@ -48,7 +121,11 @@ events = [
             "building": "Centro de Ciencias Básicas",
             "country": "Mexico",
             "state": "Aguascalientes",
-        }},
+        },
+        "ieee_attendance": "8",
+        "guests_attendance": "20",
+        },
+
 
       {
         "title": "Social Meeting with Young Profesionals",
@@ -76,6 +153,9 @@ events = [
             "state": "",
             "virtual_info_html" : "", # only for virtual
         },
+
+        "ieee_attendance": "3",
+        "guests_attendance": "5",
 
     },
    {

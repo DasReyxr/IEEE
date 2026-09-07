@@ -71,6 +71,8 @@ las fechas ya no se escriben como texto libre:
   (link/instrucciones, solo si el tipo es virtual o híbrida).
 - **Host / Chrome:** organización anfitriona (nombre, SPOID, email de
   contacto), switch de Chrome automático, usuario y contraseña.
+- **Co-hosts:** casillas y campos para activar primero "Add cohost" en el
+  formulario y luego completar uno o más cohosts desde la interfaz.
 
 Nota: los *speakers* (ponentes) de los eventos de ejemplo siguen viniendo
 del preset en `EventsVtools.py` y no tienen campos en la interfaz todavía;
